@@ -20,6 +20,7 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "immutable": "^3.7.6",
-    "resource-router-middleware": "^0.5.1"
+    "resource-router-middleware": "^0.5.1",
+    "twitter-node-client": "0.0.6"
   }
 }
