@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import middleware from './middleware';
 import api from './api';
 
-var app = express();
+let app = express();
 app.server = http.createServer(app);
 
 app.use(cors({

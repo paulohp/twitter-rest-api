@@ -10,13 +10,13 @@ export default resource({
 	 *  Errors terminate the request, success sets `req[id] = data`.
 	 */
 	load(req, id, callback) {
-		var count = 50;
+		let count = 50;
 		if (req.query.count) {
 			count = req.query.count
 		}
 		tweets.getLastTweets(id, count)
-			.then(function(result){
-				var tweet =  result.data,
+			.then((result) => {
+				let tweet =  result.data,
 						err = tweet ? null : 'Not found';
 
 				callback(err, tweet);
