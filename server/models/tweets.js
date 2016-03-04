@@ -1,4 +1,3 @@
-import Immutable, {Map, List} from 'Immutable'
 import Twitter from '../../config/twitter'
 
 let tweets = {}
