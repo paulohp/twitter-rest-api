@@ -1,0 +1,25 @@
+{
+  "name": "rest-twitter-api",
+  "version": "1.0.0",
+  "description": "A project to use twitter api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulohp/rest-twitter-api"
+  },
+  "author": "Paulo Pires",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "immutable": "^3.7.6",
+    "resource-router-middleware": "^0.5.1"
+  }
+}
