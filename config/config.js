@@ -1,9 +1,6 @@
-import { Map } from 'Immutable'
-
-export default Map({
-  'consumerKey':  process.env.CONSUMER_KEY,
-  'consumerSecret': process.env.CONSUMER_SECRET,
-  'accessToken': process.env.ACCESS_TOKEN,
-  'accessTokenSecret': process.env.ACCESS_TOKEN_SECRET,
-  'callBackUrl': process.env.CALLBACK_URL
-})
+export default {
+  'consumer_key':  process.env.CONSUMER_KEY,
+  'consumer_secret': process.env.CONSUMER_SECRET,
+  'access_token': process.env.ACCESS_TOKEN,
+  'access_token_secret': process.env.ACCESS_TOKEN_SECRET
+}
